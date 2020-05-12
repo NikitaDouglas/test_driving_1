@@ -1,0 +1,16 @@
+Brief:
+
+As a student
+So that I can remember people's names
+I want an IRB application that stores the names of people I meet
+
+Imagined Interaction:
+
+> remember_name[Rae]
+=> "Name stored!"
+> recall_names
+=> [Rae]
+> remember_name(Alec)
+=> "Name stored!"
+> recall_names
+=> [Rae, Alec]
