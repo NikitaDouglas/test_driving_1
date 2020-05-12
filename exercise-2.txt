@@ -1,0 +1,25 @@
+Brief:
+
+As a student
+So that I can understand my recent motivation
+I want an IRB application that stores my motivation ratings
+And I want to see the average of my last 3 ratings
+
+> motivation(5)
+=> "Motivation stored!"
+> show_motivation
+=> [5]
+> average_motivation
+=> "Not enough motivations to average!"
+> motivation(6)
+=> "Motivation stored!"
+> motivation(5)
+=> "Motivation stored!"
+> show_motivation
+=> [5, 6, 5]
+> average_motivation
+=> 5.1
+> motivation(6)
+=> "Motivation stored!"
+> average_motivation
+=> 5.2
